@@ -1,0 +1,26 @@
+{
+  "name": "chrome-extension-shorten-amazon-url",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarstack55/chrome-extension-shorten-amazon-url.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumarstack55/chrome-extension-shorten-amazon-url/issues"
+  },
+  "homepage": "https://github.com/kumarstack55/chrome-extension-shorten-amazon-url#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.323",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}

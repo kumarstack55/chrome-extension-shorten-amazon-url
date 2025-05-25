@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon URL Shortener",
+  "version": "1.0",
+  "description": "Amazonの長いURLを短くするChrome拡張だよ！",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.co.jp/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
